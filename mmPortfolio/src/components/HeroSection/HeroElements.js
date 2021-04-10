@@ -1,8 +1,12 @@
 import styled from 'styled-components'
-import {Link as LinkR} from 'react-router-dom'
-import {Link as LinkS} from 'react-scroll'
+import {
+  Link as LinkR
+} from 'react-router-dom'
+import {
+  Link as LinkS
+} from 'react-scroll'
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled.div `
 
   repeat:no-repeat;
   background-size:cover;
@@ -10,12 +14,13 @@ export const HeroContainer = styled.div`
   justify-content:center;
   align-items:center;
   padding:0 20px;
-  height:1000px;
+  height:1100px;
   posistion: relative;
   z-index:1;
+  margin-bottom:100px
 
 `
-export const HeroBg = styled.div`
+export const HeroBg = styled.div `
    posistion:absolute;
    display:flex;
    justify-conent:center;
@@ -27,7 +32,7 @@ export const HeroBg = styled.div`
    overflow:hidden;
 
 `
-export const IntroContainer = styled.div`
+export const IntroContainer = styled.div `
   position: relative;
   display:flex;
   justify-content:center;
@@ -48,7 +53,8 @@ export const IntroContainer = styled.div`
 
 
 `
-export const Button = styled(LinkS)`
+export const Button = styled(LinkS)
+`
    background:#D931A3;
    border-radius:50px;
    white-space: nowrap;
