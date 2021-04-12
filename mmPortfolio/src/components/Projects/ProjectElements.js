@@ -6,18 +6,19 @@ export const ProjectContainer = styled.div `
   justify-content:center;
   align-items:center;
   padding:30px 0px;
-  margin:500px auto;
-  position: relative;
+  position:relative;
+  top:60vh;
+
 
   @media screen and (max-width:1400px){
     display:flex;
     justify-content:center;
     align-items:center;
     padding:30px 0px;
-    height:1500px;
-    position: relative;
-    z-index:4;
-    margin-bottom:40px;
+    position:relative;
+    top:30vh;
+
+
   }
 
 `
@@ -41,12 +42,12 @@ export const ProjectWrapper = styled.div `
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   width:70vw;
-  max-width:90%;
+  max-width:100vw;
 
 
   @media screen and (max-width:1400px){
     padding:10px 10px;
-    max-width:95%;
+    width:97vw;
     margin-top:300px;
   }
 `

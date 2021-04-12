@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 
 export const ContactContainer = styled.div `
-  position:relative;
-
+  position:absolute;
+  margin:60% auto;
   display:flex;
   align-items:end;
   justify-conent:center
