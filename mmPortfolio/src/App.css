@@ -11,11 +11,7 @@
 
 @media only screen and (max-device-width: 480px) {
   html{
-    background-color: rgb(240,240,255);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
   }
  }
  @media only screen and (min-device-width: 481px) {
@@ -86,13 +82,13 @@
 
   p {
     font-size: calc(13px + 6 * ((100vw - 320px) / 680));
-    font-family: Gill Sans, sans-serif;
-    color:#D5DEF6
+    font-family: Europa, sans-serif;
+    color:black
   }
   h1{
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    color:black
+    color:#1261A0
 
   }
 }

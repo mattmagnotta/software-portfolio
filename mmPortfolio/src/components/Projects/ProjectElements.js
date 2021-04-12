@@ -8,6 +8,7 @@ export const ProjectContainer = styled.div `
   padding:30px 0px;
   position:relative;
   top:60vh;
+  flex-direction:column;
 
 
   @media screen and (max-width:1400px){
@@ -16,9 +17,7 @@ export const ProjectContainer = styled.div `
     align-items:center;
     padding:30px 0px;
     position:relative;
-    top:30vh;
-
-
+    top:40vh;
   }
 
 `
@@ -37,10 +36,10 @@ export const HeadingWrapper = styled.div `
 `
 export const ProjectWrapper = styled.div `
   margin:0 auto;
-  background: rgba( 255, 255, 255, 0.05 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 13px;
+  background: linear-gradient(145deg, #fffff, #ffffff);
+  box-shadow:  14px 14px 28px #c7c7c7,
+               -14px -14px 28px #ffffff;
   width:70vw;
   max-width:100vw;
 

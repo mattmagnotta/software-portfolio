@@ -4,8 +4,8 @@ import diamond from "../../../images/diamond.png";
 import tools from "../../../images/tools.png";
 import qa from "../../../images/qa.png";
 import team from "../../../images/team.png";
-
-
+import resume from "../../../images/resume.pdf";
+import {Link} from 'react-router-dom'
 import {
   ProcessContainer,
   Contents,
@@ -20,14 +20,14 @@ const Process = () => {
         Lets get more into the nitty gritty stuff & find out if we're a fit for
         each other.{" "}
       </h1>
-      <p style={{textAlign:'center',marginBottom:'30px'}}>Rather see a resume? Download here.</p>
+      <p style={{textAlign:'center',fontWeight:'bold',marginBottom:'30px'}}>Rather see a resume? Download <a href={resume}>here</a></p>
       <Contents>
         <Fade>
           <Content>
             <img width={70} src={diamond} />
             <h2>What I Value</h2>
             <Text>
-              I belive in a couple core values. Passion is first, if you have passion, the rest will fall in line. Next up, dependibility, you cant count on me being trustworthy and reliable.  Last but not least, commitment, if i decide to put my mind to something, I will see it through to completion.
+              I belive in a couple core values. Passion is first, if you have passion, the rest will fall in line. Next up, dependibility, you cant count on me being trustworthy and reliable.  Lastly, commitment, if i decide to put my mind to something, I will see it through to completion.
             </Text>
           </Content>
         </Fade>

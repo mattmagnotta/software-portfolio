@@ -3,8 +3,17 @@ import styled from 'styled-components'
 
 export const ProcessContainer = styled.div `
   position:relative;
-  top:60vh;
+  top:55vh;
   max-width:1400px;
+
+  @media screen and (max-width:1400px){
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30px 0px;
+    position:relative;
+    top:70vh;
 `
 
 export const Contents = styled.div `
@@ -27,7 +36,7 @@ export const Content = styled.div `
   justify-conent:center;
   margin:20px;
   border-radius: 53px;
-  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  background: linear-gradient(145deg, #fffff, #ffffff);
   box-shadow:  14px 14px 28px #c7c7c7,
                -14px -14px 28px #ffffff;
 

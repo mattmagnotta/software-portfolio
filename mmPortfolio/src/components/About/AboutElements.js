@@ -8,6 +8,13 @@ export const AboutContainer = styled.div `
   align-items: center;
   padding: 30px 0px;
   position: relative;
+  @media screen and (max-width:1400px){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px 0px;
+    position:relative;
+
 
 `;
 export const AboutBg = styled.div `
@@ -35,6 +42,8 @@ export const AboutWords = styled.div `
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  width:65vw;
+  padding:20px
 `;
 export const HeadersContainer = styled.div `
   display: flex;
@@ -47,20 +56,21 @@ export const HeadersContainer = styled.div `
   @media screen and (max-width: 1300px) {
     display: flex;
     flex-direction: column;
-    max-width: 95vw;
+
   }
 `;
 export const TextBlock = styled.div `
   display: flex;
-  just-conent: center;
+  just-content: center;
   flex-direction: column;
   margin: 10px 20px;
-  max-width: 500px;
+  width: 95%;
 
   @media screen and (max-width: 1300px) {
     display: flex;
     flex-direction: column;
-    max-width: 60vw;
+    max-width: 97vw;
+    margin:10px auto;
   }
 `;
 

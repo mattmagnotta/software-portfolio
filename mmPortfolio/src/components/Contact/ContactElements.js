@@ -32,7 +32,7 @@ export const Stripe = styled.div `
   position:absolute;
   width:100vw;
   height:900px;
-  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  background-color:#06BDFD;
   top:100px;
   left:0;
   z-index:-10;
