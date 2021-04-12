@@ -6,10 +6,8 @@ export const ProjectContainer = styled.div `
   justify-content:center;
   align-items:center;
   padding:30px 0px;
-
-  margin:0 auto;
-  posistion: relative;
-  z-index:4;
+  margin:500px auto;
+  position: relative;
 
   @media screen and (max-width:1400px){
     display:flex;
@@ -17,7 +15,7 @@ export const ProjectContainer = styled.div `
     align-items:center;
     padding:30px 0px;
     height:1500px;
-    posistion: relative;
+    position: relative;
     z-index:4;
     margin-bottom:40px;
   }
@@ -42,8 +40,8 @@ export const ProjectWrapper = styled.div `
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  width:90vw;
-  max-width:1500px;
+  width:70vw;
+  max-width:90%;
 
 
   @media screen and (max-width:1400px){

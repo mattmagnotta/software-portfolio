@@ -7,13 +7,13 @@ import Particles from 'react-particles-js';
 function App() {
 
   const [loading,setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    },2000)
-  }, [])
+  //
+  // useEffect(() => {
+  //   setLoading(true)
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //   },2000)
+  // }, [])
   return (
     <>
     {
@@ -21,9 +21,12 @@ function App() {
       (<div id='loader'><RingLoader color='#D931A3' loading={loading}  size={450} /> </div>
       ) : (<div> <Particles id='pparticles'
       canvasClassName="particlesBg"
-      height='4000px'
+      height='100vh'
       params={{
       "particles": {
+        "color": {
+     "value": "#0BBAFC"
+   },
       "number": {
           "value": 190,
           "density": {

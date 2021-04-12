@@ -45,6 +45,7 @@ class ContactForm extends React.Component {
             id="contactForm"
             onSubmit={this.handleSubmit}
             autoComplete="false"
+            style={{width:'30vw'}}
           >
             <TextField
               required={true}
@@ -84,7 +85,7 @@ class ContactForm extends React.Component {
             <div style={{display:'flex',justifyContent:"center"}}>
               <Button
                 style={{
-                  backgroundColor: "#70869E",
+                  backgroundColor: "#1261A0",
                   borderRadius: 5,
                   border: 0,
                   color: "white",
@@ -92,8 +93,8 @@ class ContactForm extends React.Component {
                   padding: "0 30px",
                   justifyContent:"center",
                   alignItems:"center",
-                  width: "300px",
-                  marginTop: "50px",
+                  width: "800px",
+                  marginTop: "20px",
                 }}
                 type="submit"
                 variant="contained"

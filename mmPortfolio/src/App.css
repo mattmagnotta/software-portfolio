@@ -11,7 +11,7 @@
 
 @media only screen and (max-device-width: 480px) {
   html{
-    background-image: url(/src/images/mobilebg.png);
+    background-color: rgb(240,240,255);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,30 +20,18 @@
  }
  @media only screen and (min-device-width: 481px) {
    html{
-       background-image: url(/src/images/bg1.png);
-       -webkit-background-size: ;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover ;
+
    }
   }
-/* html{
-      background-image: url('https://res.cloudinary.com/dsjwujdgd/image/upload/v1613341570/V2Portfolio/BlinkGradient_m00bpa.png');
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    } */
-
 @keyframes dash {
   from {
-    fill: #429EDC;
+    fill: white;
   }
 
   to {
     stroke-dashoffset: 0;
     animation-fill-mode: backwards;
-    fill:#4b0082
+    fill: #1261A0
   }
 }
 
@@ -51,6 +39,7 @@
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: dash 3s linear forwards;
+
 }
 
 /* animated card */
@@ -103,7 +92,7 @@
   h1{
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    color:#D5DEF6;
+    color:black
 
   }
 }
@@ -112,12 +101,12 @@
   p {
     font-size: 19px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    color:#D5DEF6;
+    color:black
   }
   h1{
     font-size: 29px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    color:#D5DEF6;
+    color:#1261A0
 
   }
 }
@@ -138,6 +127,22 @@
 
 
 }
-#contactForm{
+.circle1,
+.circle2 {
+  z-index: -1;
+  background:  linear-gradient(to top, #30cfd0 0%, #330867 100%);
 
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+  border-radius: 50%;
+}
+.circle1 {
+  top:150vh;
+  right:5vw;
+}
+
+.circle2 {
+  top:90%;
+  right:80%;
 }

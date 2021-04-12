@@ -10,7 +10,7 @@ const Projects = () => {
           <Zoom>
             <ProjectWrapper>
               <HeadingWrapper>
-                <h1 style={{textAlign:'center',marginBottom:'10px'}}> Projects out in the wild</h1>
+                <h1 style={{textAlign:'center',marginBottom:'10px'}}> Projects of mine</h1>
               </HeadingWrapper>
               <ProjectCards/>
             </ProjectWrapper>
